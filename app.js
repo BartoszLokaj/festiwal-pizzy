@@ -10,4 +10,6 @@ function countdown(){
     document.querySelector(".clock").innerHTML = `${days} dni ${hours} godzin ${minutes} minut ${seconds} sekund`;
 }
 
-countdown();
+setInterval(function() {
+    countdown();
+}, 1000)
