@@ -1,6 +1,5 @@
  body{
-	background-color: black;
-	color: #221e1f;
+	background-color: #221e1f;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -24,7 +23,7 @@ h1{
 }
 
 .pizza{
-	background-image: url(img/png/pizza.png);
+	background-image: url(img/pizza.png);
 	background-repeat: no-repeat;
 	width: 800px;
 	height: 800px;
