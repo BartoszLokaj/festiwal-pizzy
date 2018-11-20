@@ -56,6 +56,12 @@ h1{
 	box-shadow: 1px 0px 40px 25px rgba(0,0,0,0.79);
 }
 
+.socials{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
 .footer{
 	color: #ccc;
 	text-align: center;
