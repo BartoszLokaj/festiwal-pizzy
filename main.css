@@ -64,7 +64,7 @@ h1{
 }
 
 a {
-
+	color: #ccc;
 }
 
 .facebook{
@@ -73,9 +73,13 @@ a {
 	text-align: center;
 	padding: 10px;
 	margin-right: 10px;
-	background: rgb(24, 22, 22);
+	background: #1C1215;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+
+.facebook:hover{
+	color: #eee;
 }
 
 .lin{
@@ -84,9 +88,13 @@ a {
 	text-align: center;
 	padding: 10px;
 	margin-right: 10px;
-	background: rgb(24, 22, 22);
+	background: #1C1215;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+
+.lin:hover{
+	color: #eee;
 }
 
 .git{
@@ -95,9 +103,13 @@ a {
 	text-align: center;
 	padding: 10px;
 	margin-right: 10px;
-	background: rgb(24, 22, 22);
+	background: #1C1215;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+
+.git:hover{
+	color: #eee;
 }
 
 .gmail{
@@ -106,14 +118,18 @@ a {
 	text-align: center;
 	padding: 10px;
 	margin-right: 10px;
-	background: rgb(24, 22, 22);
+	background: #1C1215;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
+.gmail:hover{
+	color: 	#eee;
+}
+
 .footer{
 	text-align: center;
-	background: rgb(24, 22, 22);
+	background: #1C1215;
 	padding: 10px;
 	margin: 0;
 }
