@@ -2,6 +2,7 @@
 	background-color: #221e1f;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	color: #ccc;
 	margin: 0;
 }
 
@@ -62,8 +63,55 @@ h1{
 	justify-content: flex-end;
 }
 
+a {
+
+}
+
+.facebook{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	background: rgb(24, 22, 22);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.lin{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	background: rgb(24, 22, 22);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.git{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	background: rgb(24, 22, 22);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.gmail{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	background: rgb(24, 22, 22);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
 .footer{
-	color: #ccc;
 	text-align: center;
 	background: rgb(24, 22, 22);
 	padding: 10px;
