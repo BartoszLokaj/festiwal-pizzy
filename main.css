@@ -17,6 +17,7 @@ h1{
 	font-size: 44px;
 	color: #FA4A4F;
 	text-transform: uppercase;
+	font-family: 'Covered By Your Grace', cursive;
 	text-align: center;
 	letter-spacing: 10px;
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
@@ -34,18 +35,20 @@ h1{
 }
 
 .clock {
-	min-width: 500px;
-	height: 250px;
+	width: 620px;
+	height: 230px;
 	padding: 0 15px;
 	font-family: 'Anton', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	overflow: hidden;
 	background:rgba(250,74,79,.8);
 	color: rgba(34,30,31, 1);
-	border: 4px solid #009867;
-	border-radius: 5px;
+	border: 4px solid #fcc606;
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	letter-spacing: 3px;
 	font-size: 35px;
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 	font-weight: 700;
