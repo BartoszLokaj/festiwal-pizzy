@@ -35,23 +35,31 @@ h1{
 }
 
 .clock {
-	width: 670px;
-	height: 230px;
-	padding: 0 15px;
-	font-family: 'Anton', sans-serif;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	background:rgba(34,30,31, .9);
-	color: rgba(250,74,79,1);
-	border: 4px solid #009867;
-	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 35px;
+	width: 670px;
+	height: 200px;
+	padding: 0 15px;
+	background:rgba(34,30,31, .9);
+	border: 7px solid #009867;
+	color: rgba(250,74,79,1);
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
 	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border-radius: 40px;
 	-webkit-box-shadow: 1px 0px 40px 25px rgba(0,0,0,0.79);
 	-moz-box-shadow: 1px 0px 40px 25px rgba(0,0,0,0.79);
 	box-shadow: 1px 0px 40px 25px rgba(0,0,0,0.79);
+}
+
+.footer{
+	color: #ccc;
+	text-align: center;
+	background: rgb(24, 22, 22);
+	padding: 10px;
+	margin: 0;
 }
