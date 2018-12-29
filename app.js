@@ -10,7 +10,6 @@ function countdown(){
     if(minutes<10)minutes = "0" + minutes;
     var seconds = Math.floor(difference / (1000) % 60);
     if(seconds<10)seconds = "0" + seconds;
-    // document.querySelector(".clock").innerHTML = days + "dni" + hours + "godzin" + minutes + "minut" + seconds + "sekund";
     document.querySelector(".clock").innerHTML = `${days} dni ${hours} godzin ${minutes} minut ${seconds} sekund`;
 }
 
