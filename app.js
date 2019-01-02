@@ -11,7 +11,7 @@ function countdown(){
     var seconds = Math.floor(difference / (1000) % 60);
     if(seconds<10)seconds = "0" + seconds;
     //document.querySelector(".clock").innerHTML = `${days} dni ${hours} godzin ${minutes} minut ${seconds} sekund`;
-    document.querySelector(".clock").innerHTML = 'Festiwal trwa w najlepsze! Na co jeszcze czekasz?';
+    document.querySelector(".clock").innerHTML = 'Festiwal trwa w najlepsze! Masz czas do 04.03.2019! Na co jeszcze czekasz?';
 }
 
 setInterval(function() {
